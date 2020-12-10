@@ -10,7 +10,7 @@ class VirusTotal extends Component {
           <Cell col={12}>
             <h2>VirusTotal api analysis program</h2>
             <img
-              src="https://github.com/hyeokjinson/portfolio_react/blob/master/src/img/%EC%A0%9C%EB%AA%A9%EC%9D%84-%EC%9E%85%EB%A0%A5%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94/%EC%A0%9C%EB%AA%A9%EC%9D%84-%EC%9E%85%EB%A0%A5%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94.-7.jpg?raw=true"
+              src="https://github.com/hyeokjinson/portfolio_react/blob/main/src/img/%EC%A0%9C%EB%AA%A9%EC%9D%84-%EC%9E%85%EB%A0%A5%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94/%EC%A0%9C%EB%AA%A9%EC%9D%84-%EC%9E%85%EB%A0%A5%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94.-7.jpg?raw=true"
               alt="avatar"
               style={{width: '1200px',height:"600px"}}
                />
