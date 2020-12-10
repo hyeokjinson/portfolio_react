@@ -10,7 +10,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="./img/photo.png"
+              src="https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png"
               alt="avatar"
               className="avatar-img"
               />
@@ -24,8 +24,8 @@ class Landing extends Component {
 
         <div className="social-links">
 
-          {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          {/* instagram */}
+          <a href="https://www.instagram.com/ji_nee95/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-instagram" aria-hidden="true" />
           </a>
 
