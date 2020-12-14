@@ -52,7 +52,7 @@ class Projects extends Component {
               <Link to="./movie">
               <Button colored>설명</Button>
               </Link>
-              <Button colored>Live Demo</Button>
+              
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -71,7 +71,7 @@ class Projects extends Component {
                <Link to="./news_issue">
               <Button colored>설명</Button>
               </Link>
-              <Button colored>LIVE DEMO</Button> 
+              
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -91,7 +91,7 @@ class Projects extends Component {
                <Link to="./newsgroup">
               <Button colored>설명</Button>
               </Link>
-              <Button colored>LIVE DEMO</Button> 
+              
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -112,7 +112,7 @@ class Projects extends Component {
                <Link to="./kaggle1">
               <Button colored>설명</Button>
               </Link>
-              <Button colored>LIVE DEMO</Button> 
+              
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -132,7 +132,7 @@ class Projects extends Component {
                <Link to="./tacotron">
               <Button colored>설명</Button>
               </Link>
-              <Button colored>LIVE DEMO</Button> 
+               
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -177,7 +177,7 @@ class Projects extends Component {
               <Link to="./lucene">
               <Button colored>설명</Button>
               </Link>
-              <Button colored>Live Demo</Button>
+              
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -208,7 +208,25 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 3) {
       return (
-        <div><h1></h1></div>
+         <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-media-1.freecodecamp.org/images/1*DF0g7bNW5e2z9XS9N2lAiw.jpeg) center / cover'}} >
+            Deneve Caffe 홈페이지 구축</CardTitle>
+            <CardText>
+              사용기술<br></br>
+              turbo,NodeJS,html,css,JavaScript
+            </CardText>
+            <CardActions border>
+              <Button  href="https://github.com/hyeokjinson/deneve_homepage" target="_blank"colored>GitHub</Button>
+              
+              <Button href="https://deneve-caffe-hiyz67.turbo360-vertex.com/" target="_blank" colored>홈페이지 링크</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          </div>
       )
     }
 
